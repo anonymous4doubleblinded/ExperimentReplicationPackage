@@ -5,4 +5,44 @@
          <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://anonymous4doubleblinded.github.io/ExperimentReplicationPackage/analyzer/</loc>
+         <lastmod>2023-04-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://anonymous4doubleblinded.github.io/ExperimentReplicationPackage/applications/</loc>
+         <lastmod>2023-04-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://anonymous4doubleblinded.github.io/ExperimentReplicationPackage/data/</loc>
+         <lastmod>2023-04-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://anonymous4doubleblinded.github.io/ExperimentReplicationPackage/instructions/</loc>
+         <lastmod>2023-04-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://anonymous4doubleblinded.github.io/ExperimentReplicationPackage/minimax/</loc>
+         <lastmod>2023-04-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://anonymous4doubleblinded.github.io/ExperimentReplicationPackage/notebook/</loc>
+         <lastmod>2023-04-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://anonymous4doubleblinded.github.io/ExperimentReplicationPackage/observations/</loc>
+         <lastmod>2023-04-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://anonymous4doubleblinded.github.io/ExperimentReplicationPackage/recruitment/</loc>
+         <lastmod>2023-04-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
