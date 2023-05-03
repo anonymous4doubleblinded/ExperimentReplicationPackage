@@ -2,6 +2,8 @@
 
 All you need to replicate our findings, in one place.
 
+ > IMPORTANT: AS THE DOUBLE BLINDED SUBMISSION REQUIRES ANONYMIZATION OF OUR EXISTING PROJECT, AND WE DO NOT WANT TO JEOPARDIZE THE PROCESS, WE CAREFULLY ADD THE BELOW REFERENCES ONE BY ONE OVER THE NEXT 2 DAYS TO ENSURE OUR IDENTITY DOES NOT APPEAR WHILE REPLICABILITY IS ENSURED AS MUCH AS POSSIBLE.
+
 ## About
 
 As part of our submission to the [ESEM 2023 conference](https://conf.researchr.org/series/esem), we offer a replication package that allows fast and independent replication of all our results and interpretations.  
