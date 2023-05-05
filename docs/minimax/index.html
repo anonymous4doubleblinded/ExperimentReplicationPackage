@@ -219,9 +219,40 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          MiniMax Heuristic
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         MiniMax Heuristic
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#source-code" class="md-nav__link">
+    Source Code
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -337,6 +368,21 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#source-code" class="md-nav__link">
+    Source Code
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -350,7 +396,17 @@
 
 
 <h1 id="minimax-auto-group-balance-heuristic-source-code">MiniMax Auto Group Balance Heuristic Source Code</h1>
-<p>Reference to anonymized minimax algorithm sources and brief explanation.</p>
+<p>We implemented a custom MiniMax Heuristic, to assess the participant's skill profiles and create balanced experiment groups.  </p>
+<ul>
+<li>To maintain transparency we provide source code and documentation of the heuristic used to create the participant allocations.</li>
+<li>The program parses all provided self assessment forms (see <a href="../recruitment">corresponding entry of replication bundle</a>) which they provided during recruitment, and then performs a <a href="https://en.wikipedia.org/wiki/Minimax">MiniMax search</a> for the fairest group allocation.</li>
+<li>A side product of this software is is the generation of personalized emails for following communication with the individual participants. </li>
+</ul>
+<blockquote>
+<p>Since the purpose of this program is to select of all applicants and provide a mapping from their legal names to pseudonyms, it can be only executed with access to the participant details. The latter we cannot release for legal reasons.</p>
+</blockquote>
+<h2 id="source-code">Source Code</h2>
+<p>An anonymized version of the <a href="https://github.com/anonymous4doubleblinded/GroupPartitioner">MiniMax implementation and documentation</a> is available on GitHub, for the reviewers consideration.</p>
 
               
             </article>
