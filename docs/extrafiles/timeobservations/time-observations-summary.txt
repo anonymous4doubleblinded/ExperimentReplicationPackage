@@ -1,0 +1,34 @@
+Recurring problems, TouchCORE:
+-Attempt to edit resource tree in splitview
+-Accidental delete of sane mappings in splitview
+-Target method parameter names not displayed in splitview on windows
+
+Recurring problems, IDE:
+-Wrong IDE used (Eclipse or Visual Studio, while instructions are for IntelliJ)
+-Project not imported correctly, e.g. all three source codes in a single project
+-Unconfigured IDE launcher used instead of launch via maven
+
+Recurring problems, either methodology:
+-Instruction and solving order not resprected
+-On issues chaotic search for solutions in try and error fashion
+-Interleaved task and instructions
+-Preliminaries not covered before commencing task
+-Instruction video played at increased speed
+-Instruction video not completed or in parts skipped
+-Initially Zoo refactored instead of requested app
+
+Interesting observations:
+-Red-Fox had DSL assisted task first, when stuck in manual refacotring process they created an ASCII version of the ResTL DSL and only afterwards translated the ascii model into spring annotations.
+-Huge variety in how much effort participants make to solve issues. Some just continue, other research online, read the javadoc, re-watch the instructions.
+-Instructions never mention PostMan, yet several participants install this tool to test the entire created API.
+
+Rare problems
+-State of application at video end is not identical to uploaded source code state
+-Task abandon after minimum time reached
+-Confusion between REST resource locations and java packages.
+-Confusion between REST GET endpoints and java getters.
+-Outcome not tested.
+-Unix commands typed on DOS interpreter.
+-Blue Turtle is a scammer. The spend a minimum of time on instructions and tasks. Are not willing to make an honest effort. (Study was payed, we noticed too late)
+
+
