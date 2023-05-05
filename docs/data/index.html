@@ -264,9 +264,47 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Raw Data
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Raw Data
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#download-links" class="md-nav__link">
+    Download Links
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-test" class="md-nav__link">
+    How to test
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -337,6 +375,28 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#download-links" class="md-nav__link">
+    Download Links
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-test" class="md-nav__link">
+    How to test
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -350,8 +410,30 @@
 
 
 <h1 id="raw-collected-data">Raw Collected Data</h1>
-<p>28 participants, for each two tasks.
-Bunle link as zip file (part of this repo)</p>
+<p>Here you can download the participant data, collected after experiment completion. There is a total of 28 participants, in four groups. Every identified pair of colour and animal is unique, e.g. <code>red squid</code> is a different participant than <code>green squid</code>.</p>
+<p>You will find 2 projects for each of the 28 participants:
+ * A manually converted application. Sources as a maven project.
+ * A tool assisted converted application. Contains the models created and the corresponding generated sources.</p>
+<h2 id="download-links">Download Links</h2>
+<ul>
+<li><a href="../extrafiles/03-uploads-sanitized-sources-models.zip">Zip file with all anonymized participant submissions</a>.<ul>
+<li>About 1MB, does not contain compiled binaries.</li>
+<li>MD5 Checksum: <code>4e83acc9536fdc8d3e3b7afe21313fa5</code>.</li>
+</ul>
+</li>
+</ul>
+<h2 id="how-to-test">How to test</h2>
+<ul>
+<li>You first need to locally install the bookstore and xox internals as local maven libraries. See the <a href="../applications">referenced projects for instructions</a>.</li>
+<li>Afterwards you can compile and run participant submissions with maven:<ul>
+<li><code>cd</code> next to a <code>pom.xml</code> file.</li>
+<li>Compile and start the project with <code>mvn clean package spring-boot:run</code></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Note: You will need Java and Maven installed on your system to test participant submissions.</p>
+</blockquote>
 
               
             </article>
