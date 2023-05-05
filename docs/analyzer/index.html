@@ -350,12 +350,16 @@
 
 
 <h1 id="submission-correctness-analyzer">Submission Correctness Analyzer</h1>
-<p>This page contains links to the tools needed to replicate our test results. You will also need the <a href="../data">raw participant submission source code</a> to test.
- * The test chain for assessing all submissions is fully automated.
-    * A bash script iterates over all submissions and all test endpoints, and compares execution time behaviour to the stipulated interface behaviour. It afterwards creates a massive CSV file, for further analysis.
-    * The CSV is e.g. consumed by the interactive notebook that creates the same figures as printed in our article submission.
- * You can also directly download the resulting CSV, or inspect the repositories below to replicate the CSV content by running the test toolchain on your local machine.
- * More details on the technical functioning of the test chain are provided in the Repo documentation.</p>
+<p>This page contains links to the tools needed to replicate our test results. You will also need the <a href="../data">raw participant submission source code</a> to test.</p>
+<ul>
+<li>The test chain for assessing all submissions is fully automated.<ul>
+<li>A bash script iterates over all submissions and all test endpoints, and compares execution time behaviour to the stipulated interface behaviour. It afterwards creates a massive CSV file, for further analysis.</li>
+<li>The CSV is e.g. consumed by the interactive notebook that creates the same figures as printed in our article submission.</li>
+</ul>
+</li>
+<li>You can also directly download the resulting CSV, or inspect the repositories below to replicate the CSV content by running the test toolchain on your local machine.</li>
+<li>More details on the technical functioning of the test chain are provided in the Repo documentation.</li>
+</ul>
 <blockquote>
 <p>Note that the script internally calls java unit tests, which are hosted in extra repositories, for they are application specific.  </p>
 </blockquote>
