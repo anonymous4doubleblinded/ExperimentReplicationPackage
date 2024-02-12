@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://anonymous4doubleblinded.github.io/ExperimentReplicationPackage/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://anonymous4doubleblinded.github.io/ExperimentReplicationPackage/instructions/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://anonymous4doubleblinded.github.io/ExperimentReplicationPackage/minimax/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://anonymous4doubleblinded.github.io/ExperimentReplicationPackage/notebook/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://anonymous4doubleblinded.github.io/ExperimentReplicationPackage/observations/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://anonymous4doubleblinded.github.io/ExperimentReplicationPackage/recruitment/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
